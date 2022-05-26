@@ -1,0 +1,46 @@
+.container {
+  background-color: #eff3f8;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding: 30px;
+}
+.grid .parent {
+  width: 25rem;
+  height: 35rem;
+  background-color: white;
+  position: relative;
+}
+.upperPart {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90%;
+}
+.upperPart + p {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: white;
+  background-color: #735dd0;
+  padding: 5px;
+}
+.downPart {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.downPart h2 {
+  color: #212121;
+  width: 50%;
+  text-align: start;
+  font-weight: bold;
+}
+.downPart p {
+  color: #848484;
+  width: 50%;
+  text-align: end;
+}
